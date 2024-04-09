@@ -2,6 +2,7 @@
 html {
     font-size: 18px;
     line-height: 120%;
+    scroll-behavior: smooth;
 }
 * {
 	padding: 0px;
@@ -106,6 +107,9 @@ img, svg {
   .color-price {
     color: #B3B3B3;
   }
+  .color-footer {
+    color: #C6C7C8;
+  }
 
   .fs-86 {
     font-size: 86px;
@@ -204,10 +208,6 @@ display: inline;
          border-radius: 32px;
     }
 
-    &__inner {
-        
-    }
-
     &__info {
         width: 54%;
 }
@@ -236,27 +236,67 @@ display: inline;
 .through {
     text-decoration: line-through;
 }
-
-.text {
-}
-.product__title {
-}
-.product__box {
-}
-.btn_under {
-}
-.product__banner {
-}
 .img {
     &2 {
         max-width: 160px;
         margin: 0 auto 25px;
     }
 
+    &__footer {
+        display: inline;
+    }
+
 }
-.product__banner__title {
+
+.protection {
+    margin-bottom: 166px;
+
+    &__inner {
+        display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    }
+    &__box {
+        width: 48%;
+        background-color: #F2F2F2;
+        border-radius: 32px;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         align-items: flex-end;
+
+        &__inner {
+             padding: 64px 64px 0 64px;
+             width: 100%;
+        }
 }
-.price {
+
+&__list {
+    list-style: none;
+    &__item {
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    }
 }
-.btn {
+}
+
+.mw-340 {
+    max-width: 340px;
+}
+.mw-370 {
+    max-width: 370px;
+}
+
+.footer {
+    background-color: #212121;
+    padding: 64px;
+
+    &__top {
+        display: flex;
+        align-items: center;
+    }
 }

@@ -2,6 +2,7 @@
 html {
   font-size: 18px;
   line-height: 120%;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -110,6 +111,10 @@ img, svg {
 
 .color-price {
   color: #B3B3B3;
+}
+
+.color-footer {
+  color: #C6C7C8;
 }
 
 .fs-86 {
@@ -245,4 +250,56 @@ img, svg {
 .img2 {
   max-width: 160px;
   margin: 0 auto 25px;
+}
+.img__footer {
+  display: inline;
+}
+
+.protection {
+  margin-bottom: 166px;
+}
+.protection__inner {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.protection__box {
+  width: 48%;
+  background-color: #F2F2F2;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.protection__box__inner {
+  padding: 64px 64px 0 64px;
+  width: 100%;
+}
+.protection__list {
+  list-style: none;
+}
+.protection__list__item {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #666666;
+}
+
+.mw-340 {
+  max-width: 340px;
+}
+
+.mw-370 {
+  max-width: 370px;
+}
+
+.footer {
+  background-color: #212121;
+  padding: 64px;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
